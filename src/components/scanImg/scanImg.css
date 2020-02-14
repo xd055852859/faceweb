@@ -1,0 +1,226 @@
+/* pages/scanImg/scanImg.wxss */
+
+.scanImg-image-info {
+  width: 100%;
+  height: 45%;
+  background-color: #85a8e6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.scanImg-image-info-div {
+  width: 90%;
+  height: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.scanImg-image-info-background {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0rem;
+  left: 0rem;
+  z-index: 1;
+}
+
+.scanImg-image-info-background-div {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0rem;
+  left: 0rem;
+}
+
+.scanImg-image-info-personImg {
+  width: 80%;
+  height: 80%;
+  position: absolute;
+  border-radius: 0.2rem;
+  top: 10%;
+  left: 10%;
+  z-index: 3;
+}
+
+.scanImg-image-table {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0rem;
+  left: 0rem;
+  z-index: 4;
+}
+
+.scanImg-image-info-div-changediv {
+  width: 100%;
+  height: 0rem;
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0),
+    rgba(255, 255, 255, 0.6)
+  );
+  animation: changeHeight 5s linear infinite;
+  z-index: 5;
+}
+
+.scanImg-image-info-div-image {
+  width: 135%;
+  height: 0.06rem;
+  z-index: 5;
+  position: absolute;
+  top: 0.6rem;
+  left: -20%;
+  animation: changeImgHeight 5s linear infinite;
+}
+
+@keyframes changeHeight {
+  0% {
+    height: 0rem;
+  }
+
+  100% {
+    height: 5.4rem;
+  }
+
+  /* 100% {
+        height: 0rem;
+    } */
+}
+
+@keyframes changeImgHeight {
+  0% {
+    top: 0rem;
+  }
+
+  100% {
+    top: 5.4rem;
+  }
+
+  /* 
+    100% {
+        top: 0rem;
+    } */
+}
+
+.scanImg-message {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  background: #f8f8f8;
+  position: relative;
+}
+
+.scanImg-tabs {
+  width: 6.8rem;
+  font-size: 0.36rem;
+  color: #333333;
+  letter-spacing: 0;
+  text-align: center;
+  display: flex;
+  margin: 0.34rem 0rem 0.16rem 0rem;
+}
+
+.scanImg-tabs-item {
+  width: 100%;
+  height: 0.5rem;
+  line-height: 0.5rem;
+  text-align: center;
+}
+
+/* .scanImg-tabs-item:hover {
+    color: #333;
+} */
+
+.scanImg-message-info {
+  width: 90%;
+  height: 70%;
+  background: #fff;
+  box-shadow: 0 0 10px 0 rgba(187, 187, 187, 0.5);
+  border-radius: 6px;
+  margin-bottom: 0.71rem;
+  padding: 0.4rem 0.43rem;
+  box-sizing: border-box;
+  font-size: 0.34rem;
+  color: #333;
+  letter-spacing: 0;
+  text-align: justify;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.scanImg-message-bar-progress {
+  height: 0.4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.scanImg-message-bar {
+  height: 0.4rem;
+  width: 95%;
+  /* margin: -0.4rem 0rem 0.25rem 0rem; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.scanImg-message-progress {
+  width: 90%;
+}
+
+.scanImg-message-image {
+  width: 0.4rem;
+  height: 0.4rem;
+}
+
+.rotateImg {
+  animation: rotate 2.5s linear infinite;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(180deg);
+  }
+}
+
+.scanImg-info-text {
+  z-index: 3 !important;
+  font-size: 0.34rem;
+  color: #fff;
+  letter-spacing: 0;
+  text-align: center;
+  cursor: pointer;
+}
+
+.scanImg-info-button-image {
+  bottom: 5%;
+  z-index: 2;
+}
+
+.scanImg-canvas,
+.scanImg-myCanvas,
+.scanImg-backgroundCanvas {
+  position: absolute;
+  z-index: 5;
+}
+
+.scanImg-canvas {
+  z-index: 3;
+}
+.scanImg-back {
+  position: absolute;
+  width: 0.9rem;
+  height: 0.9rem;
+  left: 5%;
+  bottom: 5%;
+}

@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  height: 100%;
+  width: 100%;
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+.ant-message .anticon,
+.ant-message-notice {
+  font-size: 0.25rem !important;
+}
+
+.ant-input {
+  height: 0.7rem !important;
+  font-size: 0.32rem !important;
+  margin-left: 0.1rem !important;
+}
+
+.ant-progress-text .anticon {
+  font-size: 0.35rem !important;
+}
+
+.ant-progress-text {
+  margin-left: 8px !important;
+}
+
+.ant-progress-outer {
+  width: 83% !important;
+  margin-right: -0.15rem !important;
+  padding-right: 0.1rem !important;
+  box-sizing: border-box !important;
+}
+
+.ant-progress-status-success .ant-progress-bg {
+  background-color: #1BA160 !important;
+}
+
+.ant-steps-item-title {
+  font-size: 0.25rem !important;
+}
+
+.ant-steps {
+  width: 90% !important;
+  margin-top: 0.2rem !important;
+}
+
+.ant-steps-item-process .ant-steps-item-icon {
+  background-color: #85A8E6 !important;
+}
+
+.input::-webkit-input-placeholder {
+  /* placeholder颜色  */
+  font-size: 0.32rem;
+  color: #999;
+}
+
+.cropper-canvas,
+.cropper-drag-box,
+.cropper-crop-box,
+.cropper-modal {
+  z-index: 10;
+}
+
+.cropper-wrap-box {
+  z-index: 3 !important;
+}

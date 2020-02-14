@@ -1,0 +1,153 @@
+.tongueImg-container {
+  padding: 0rem 10%;
+}
+
+.tongueImg-info {
+  width: 65%;
+}
+
+.tongueImg-div {
+  width: 100%;
+  height: 4.18rem;
+  position: relative;
+}
+
+.tongueImg-title {
+  font-size: 0.3rem;
+  color: #666666;
+  text-align: center;
+  margin: 0.45rem 0rem 0.21rem 0rem;
+}
+
+.tongueImg-tongueFile {
+  position: absolute;
+  left: 0rem;
+  top: 0rem;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 5;
+}
+
+.tongueImg-tongueBg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0rem;
+  left: 0rem;
+  z-index: 1;
+}
+
+.tongueImg-tongueUp {
+  width: 80%;
+  height: 80%;
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  z-index: 2;
+}
+
+.tongueImg-tongueGif {
+  width: 0.7rem;
+  height: 0.7rem;
+  position: absolute;
+  bottom: 7%;
+  right: 5%;
+  z-index: 3;
+}
+
+.tongueImg-memo {
+  width: 100%;
+  margin-top: 0.4rem;
+  font-size: 0.3rem;
+  color: #999999;
+  padding-bottom: 1.8rem;
+}
+
+.tongueImg-memo-title {
+  margin-bottom: 0.14rem;
+  font-size: 0.3rem;
+  color: #999999;
+}
+
+.tongueImg-memo-info {
+  color: #999999;
+  text-align: justify;
+  line-height: 0.46rem;
+  font-size: 0.3rem;
+  color: #999999;
+}
+
+.tongueImg-bottom-container {
+  width: 100%;
+  height: 1.8rem;
+  position: fixed;
+  left: 0rem;
+  bottom: 0rem;
+  background: #ffffff;
+  box-shadow: 0 0 4px 0 rgba(77, 77, 77, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+}
+
+.untongueImg-info-text,
+.tongueImg-info-text {
+  z-index: 3 !important;
+  font-size: 0.34rem;
+  color: #c4c4c4;
+  text-align: center;
+}
+
+.tongueImg-info-text {
+  color: #fff;
+}
+
+.tongueImg-info-button-image {
+  /* bottom: 0.15rem; */
+  z-index: 2;
+}
+
+.tongueImg-userInfo {
+  width: 100%;
+  height: 0.8rem;
+  padding: 0rem 5%;
+  margin-top: 0.3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+}
+
+.tongueImg-userInfo-title {
+  width: 30%;
+  height: 0.8rem;
+  font-size: 0.3rem;
+  color: #666666;
+  line-height: 0.8rem;
+}
+
+#tongueImg .ant-input {
+  width: 65% !important;
+  height: 100% !important;
+  border: none !important;
+  font-size: 0.32rem !important;
+}
+
+#tongueImg .ant-radio-button-wrapper {
+  height: 0.6rem;
+  line-height: 0.6rem;
+  text-align: center;
+  width: 1.5rem;
+  font-size: 0.28rem;
+}
+.tongueImg-back {
+  position: absolute;
+  width: 0.9rem;
+  height: 0.9rem;
+  left: 5%;
+  /* bottom: 0.15rem; */
+  cursor: pointer;
+}
+

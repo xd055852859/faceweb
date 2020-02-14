@@ -1,0 +1,44 @@
+.cropper-container {
+  background-color: #000;
+}
+
+.uploadCrop {
+  height: 5rem;
+  width: 5rem;
+  overflow: hidden;
+}
+
+.uploadButton,
+.backButton {
+  position: absolute;
+  width: 3rem;
+  height: 2rem;
+  bottom: 1rem;
+  right: 5%;
+  z-index: 10;
+  font-size: 0.38rem;
+  line-height: 2rem;
+  text-align: right;
+  color: #fff;
+  cursor: pointer;
+  padding-left:20px;
+  box-sizing: border-box;;
+}
+
+.backButton {
+  left: 5%;
+  text-align: left;
+  padding-left:0px;
+  padding-right:20px;
+}
+
+.cropper-bg {
+  background-color: #000 !important;
+  background-image: none !important;
+}
+
+.cropper-point {
+  width: 0.15rem !important;
+  height: 0.15rem !important;
+}
+
