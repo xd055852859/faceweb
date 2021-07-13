@@ -1,7 +1,7 @@
 import {
     HAND_IMGSRC,
     HAND_IMGFILE
-} from '../actions/actionTypes';
+} from '../../actions/actionTypes';
 const defaultState = {
     imgHandSrc: '',
     imgHandFile: '',

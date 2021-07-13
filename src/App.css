@@ -1,5 +1,5 @@
-@import "~antd/dist/antd.css";
-@import "~antd-mobile/dist/antd-mobile.css";
+@import '~antd/dist/antd.css';
+@import '~antd-mobile/dist/antd-mobile.css';
 
 * {
   text-size-adjust: 100%;
@@ -22,7 +22,8 @@ body {
   box-sizing: border-box;
 }
 #root {
-  width: 9rem;
+  width: 100%;
+  display: flex;
 }
 .fullContainer {
   height: 100%;
@@ -98,4 +99,3 @@ body {
   text-align: center;
   font-size: 0.25rem;
 }
-

@@ -1,0 +1,73 @@
+.webUploadImg {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: flex-start;
+  flex-wrap: wrap;
+}
+.webUploadImg-title {
+  width: 100%;
+  height: 56px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #85a8e6;
+  line-height: 56px;
+  text-align: center;
+  margin:20px 0px 25px 0px;
+}
+.webUploadImg-subtitle {
+  width: 100%;
+  height: 33px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #666666;
+  line-height: 33px;
+  text-align: center;
+  margin-bottom:10px;
+}
+
+.webUploadImg-bigImg {
+  width: 364px;
+  height: 322px;
+  position: relative;
+  background-image: url('https://cdn-icare.qingtime.cn/1548815328635_uploadImg-bigImg-person.png');
+  background-size: 100% 100%;
+}
+.webUploadImg-bigImg-title {
+  height: 27px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  font-size: 12px;
+  color: #fff;
+  letter-spacing: 0;
+  text-align: center;
+}
+.webUploadImg-bottom-title {
+  width: 100%;
+  height: 56px;
+  font-size: 10px;
+  font-weight: bold;
+  color: #333333;
+  line-height: 28px;
+  text-align: center;
+  margin-top:15px;
+}
+.webUploadImg-info {
+  width: 100%;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+}
+.webUploadImg-item-info {
+  height: 30px;
+  background-size: 100% 100%;
+  padding: 2px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15px;
+}
